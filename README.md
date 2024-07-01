@@ -1,2 +1,2 @@
 # AdventureNet
-site do projeto de uma rede social
+Projeto de uma rede social
