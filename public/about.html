@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    
+    <!-- Progress Bar -->
+    <script src="scripts/progressbar.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    
+    
+    <script src="scripts/script1.js"></script>
+    
+
+    <link href="./images/cartoon-2029734.svg" rel="icon" type="image/svg" >
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div id="containedLogo">
+              <a href="index.html" class="'navbar-brand" id="brandName">
+                <img id="logo" src="images/rocket2.png" alt="logo_Image" />
+                <div><span class="firstLatter">A</span>dventure net</div>
+              </a>
+            </div>
+            <button
+              class="navbar-toggler bg-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar-links"
+              aria-controls="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbar-links"
+            >
+              <!-- id='navbar-links' ele será puxado por data-target no botão anterior -->
+              <!-- <div class="navbar-nav"> -->
+              <div class="nav-menu">
+                <ul>
+                  <li>
+                    <a href="index.html" class="nav-item nav-link link" id="home-menu"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="nav-item link nav-link active" id="about-menu"> About </a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="nav-button" id="centerbar">
+                <a href="index.html" class="buttonLink"> <button class="btn white-btn" id="CenterloginBtn">Login</button> </a>
+                <a href="singup.html" class="buttonLink"> <button class="btn white-btn" id="CenterRegisterBtn"> Cadastrar </button> </a>  
+              </div>
+            </div>
+  
+            <div class="nav-button" id="endbar">
+              <a href="index.html" class="buttonLink"> <button class="btn white-btn" id="CenterloginBtn">Login</button> </a>
+              <a href="singup.html" class="buttonLink"> <button class="btn white-btn" id="CenterRegisterBtn"> Cadastrar </button> </a>
+              </div>
+          </nav>
+        </div>
+      </header>
+    <main>
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title"> Sobre a <span class="firstLatter1">A</span>dventure net</h3>
+            </div>
+            <!-- Carrosel -->
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div id="mainSlider" class="carousel slide" data-ride="carousel"> 
+                    <ol class="carousel-indicators">
+                        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#mainSlider" data-slide-to="1"></li>
+                        <li data-target="#mainSlider" data-slide-to="2"></li>
+                        <li data-target="#mainSlider" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/image0.jpg" class="d-block img-fluid w-100" alt='casal interagindo'>    
+                      </div>                                   
+                      <div class="carousel-item">
+                          <img src="./images/image1 (Personalizado).jpg" class="d-block w-100 h-100 img-fluid" alt='pessoas conversando motorhome'>
+                              
+                      </div>
+                      
+                      <div class="carousel-item">
+                              <img src="./images/image2 (Personalizado).jpg" class="d-block img-fluid w-100 h-100" alt='amigos curtindo um passeio em equipe'>
+                      </div>
+                      
+                      <div class="carousel-item">
+                              <img src="./images/image3 (Personalizado).jpg" class="d-block w-100 h-100 img-fluid" alt='amigos passendo de bike'>
+                      </div>
+                      <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                      </a>
+                      <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                      </a>
+                    </div>
+                </div>
+              </div>                        
+            </div>
+            
+            <!-- Apresentação -->
+            <div class="col-md-6">
+              <h3 class="about-title">Que tal levar sua experiência com redes sociais para o próximo nível?</h3>
+              <p><span class="firstLatter">A</span>dventure net é a rede social para quem quer vivenciar muitas aventuras.</p>
+              <p>Acompanhe as aventuras que sua 'tribo' compartilha, rica em detalhes, experiências mais vivas e reais, sinta-se presente nestas aventuras!</p>
+              <p>Esse compartilhamento de experiências e vivências vai te motivar a fazer suas próprias aventuras e quem sabe marcar a próxima aventura com seu grupo de amigos aqui no <span class="firstLatter">A</span>dventure net?!</p>
+              <p>Bora nessa!!!</p>
+            
+              <!-- Entre em contato  -->
+            
+              <div id="contato">
+                  <h3 class="about-title">Assine nossa lista de e-mails e fique por dentro de todas as novidades que vem por aí!</h3>
+                  <div class="container-fluid" id="subscribe">
+                      <form action="">
+                          <input type="email" class="form-control" name="email" id="email-input" placeholder="Seu melhor e-mail">
+                          <input type="submit" id="subscribe-btn" value="inscrever">
+                      </form>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+
+</body>
+</html>
